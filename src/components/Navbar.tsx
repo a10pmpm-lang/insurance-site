@@ -50,7 +50,7 @@ export default function Navbar() {
           </div>
           <div className="leading-tight">
             <span className="text-[#1B5EA8] font-semibold text-base sm:text-lg tracking-tight">
-              シールドガード
+              XXX保険会社
             </span>
             <span className="hidden sm:block text-[10px] text-slate-400 tracking-wide -mt-0.5">
               少額短期保険

@@ -24,7 +24,7 @@ export default function Footer() {
               </div>
               <div>
                 <span className="text-white font-semibold text-base tracking-tight">
-                  シールドガード
+                  みなと
                 </span>
                 <span className="block text-[10px] text-slate-400 tracking-wide">少額短期保険</span>
               </div>
@@ -74,7 +74,7 @@ export default function Footer() {
         {/* Bottom — stack on mobile, row on md */}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-xs text-slate-500">
           <p className="text-center md:text-left">
-            © 2025 シールドガード少額短期保険株式会社 All Rights Reserved.
+            © 2025 短期保険株式会社 All Rights Reserved.
           </p>
           {/* Legal info — wrap gracefully, no overflow */}
           <div className="flex flex-wrap justify-center md:justify-end gap-x-3 gap-y-1">

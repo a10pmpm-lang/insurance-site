@@ -81,7 +81,7 @@ export default function WhyUsSection() {
         <div className="text-center mb-12 md:mb-14">
           <span className="jp-label">選ばれる理由</span>
           <h2 className="mt-4 text-2xl sm:text-3xl md:text-4xl font-semibold text-[#1A2B42] leading-snug">
-            シールドガードが選ばれる、<br className="hidden sm:block" />
+            XXXが選ばれる、<br className="hidden sm:block" />
             <span className="accent-text">6つの安心ポイント</span>
           </h2>
         </div>

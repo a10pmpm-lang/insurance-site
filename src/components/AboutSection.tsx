@@ -49,7 +49,7 @@ export default function AboutSection() {
           {/* Left — text + timeline */}
           <div>
             <p className="text-slate-500 text-sm sm:text-base leading-[1.9] mb-4 md:mb-5">
-              シールドガードは、「保険をもっと身近に、もっとわかりやすく」というミッションのもと、
+              XXXXは、「保険をもっと身近に、もっとわかりやすく」というミッションのもと、
               2008年に創業しました。創業以来、お客さまの声に真摯に向き合い、
               使いやすい商品設計と誠実なサービス提供を続けてまいりました。
             </p>

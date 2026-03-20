@@ -38,7 +38,7 @@ export default function HeroSection() {
 
             {/* Body */}
             <p className="animate-fade-in-up animate-delay-200 text-slate-500 text-sm sm:text-base leading-[1.85] mb-7 md:mb-8">
-              シールドガードは、生命・医療・自動車・火災の各分野において、
+              生命・医療・自動車・火災の各分野において、
               お客さまの大切な毎日を支える保険サービスをご提供しています。
               わかりやすい保険料と迅速なお支払いで、安心をお届けします。
             </p>

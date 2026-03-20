@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "シールドガード少額短期保険 — 大切な方を守るための保険",
-  description: "生命・医療・自動車・火災保険の総合保険サービス。シールドガードが、あなたの大切な未来をしっかりとお守りします。",
+  title: "少額短期保険 — 大切な方を守るための保険",
+  description: "生命・医療・自動車・火災保険の総合保険サービス。あなたの大切な未来をしっかりとお守りします。",
 };
 
 export default function RootLayout({
