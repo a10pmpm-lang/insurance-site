@@ -83,9 +83,9 @@ export default function ServicesSection() {
         {/* Header */}
         <div className="text-center mb-12 md:mb-14">
           <span className="jp-label">保険商品</span>
-          <h2 className="mt-4 text-2xl sm:text-3xl md:text-4xl font-semibold text-[#1A2B42] leading-snug">
-            ライフステージに合わせた、<br className="hidden sm:block" />
-            <span className="accent-text">4つの保険プラン</span>
+          <h2 className="mt-4 text-3xl sm:text-4xl md:text-5xl font-semibold text-[#1A2B42] leading-snug">
+            ライフステージに合わせた<br className="hidden sm:block" />
+            <span className="accent-text">みなとプラン</span>
           </h2>
           <p className="mt-4 text-slate-400 text-sm leading-relaxed max-w-xl mx-auto">
             ご結婚・お子さまの誕生・住宅購入など、人生の節目ごとに必要な保障はかわります。
