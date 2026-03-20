@@ -31,7 +31,7 @@ export default function Navbar() {
       {/* Top utility bar — desktop only */}
       <div className="hidden lg:block bg-[#1B5EA8] text-white text-xs">
         <div className="max-w-7xl mx-auto px-6 py-1.5 flex items-center justify-between">
-          <span className="text-blue-100">XXX保険株式会社</span>
+          <span className="text-blue-100">MINATO保険株式会社</span>
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-1.5">
               <Phone className="w-3 h-3 text-blue-200" />
@@ -50,7 +50,7 @@ export default function Navbar() {
           </div>
           <div className="leading-tight">
             <span className="text-[#1B5EA8] font-semibold text-base sm:text-lg tracking-tight">
-              XXX保険会社
+              MINATO保険会社
             </span>
             <span className="hidden sm:block text-[10px] text-slate-400 tracking-wide -mt-0.5">
               少額短期保険
