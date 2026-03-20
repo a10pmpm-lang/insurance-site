@@ -19,7 +19,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "本社所在地",
-    detail: "東京都千代田区丸の内1-1-1",
+    detail: "和歌山県XXX",
     sub: "みなとビル 3F",
   },
   {
