@@ -120,6 +120,7 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    scroll-behavior: smooth;
   }
   body {
     @apply bg-background text-foreground;
@@ -127,4 +128,105 @@
   html {
     @apply font-sans;
   }
+}
+
+/* ─── Subtle fade-in (no movement, just opacity) ─── */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in      { animation: fadeIn 0.6s ease-out forwards; }
+.animate-fade-in-up   { animation: fadeInUp 0.7s ease-out forwards; }
+.animate-delay-100    { animation-delay: 0.10s; opacity: 0; }
+.animate-delay-200    { animation-delay: 0.20s; opacity: 0; }
+.animate-delay-300    { animation-delay: 0.30s; opacity: 0; }
+.animate-delay-400    { animation-delay: 0.40s; opacity: 0; }
+.animate-delay-500    { animation-delay: 0.50s; opacity: 0; }
+
+/* ─── Japanese corporate color palette ─── */
+/* Primary: #1B5EA8  Light blue bg: #EBF4FD  Border: #C8DCEF */
+
+.jp-primary        { color: #1B5EA8; }
+.jp-primary-bg     { background-color: #1B5EA8; }
+.jp-primary-light  { background-color: #EBF4FD; }
+
+/* ─── Section backgrounds ─── */
+.section-white  { background-color: #ffffff; }
+.section-light  { background-color: #F4F8FC; }
+.section-blue   { background-color: #EBF4FD; }
+
+/* ─── Accent text (calm blue) ─── */
+.accent-text {
+  color: #1B5EA8;
+}
+
+/* ─── Card styles ─── */
+.jp-card {
+  background: #ffffff;
+  border: 1px solid #D8E8F5;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(27, 94, 168, 0.06);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+.jp-card:hover {
+  box-shadow: 0 6px 24px rgba(27, 94, 168, 0.12);
+  transform: translateY(-3px);
+}
+
+/* ─── Icon circle ─── */
+.jp-icon {
+  background-color: #EBF4FD;
+  color: #1B5EA8;
+}
+
+/* ─── Primary button ─── */
+.jp-btn {
+  background-color: #1B5EA8;
+  color: #ffffff;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+.jp-btn:hover {
+  background-color: #154d8e;
+}
+
+/* ─── Outline button ─── */
+.jp-btn-outline {
+  background-color: transparent;
+  color: #1B5EA8;
+  border: 1.5px solid #1B5EA8;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+.jp-btn-outline:hover {
+  background-color: #EBF4FD;
+}
+
+/* ─── Section label pill ─── */
+.jp-label {
+  display: inline-block;
+  background-color: #EBF4FD;
+  color: #1B5EA8;
+  border: 1px solid #C8DCEF;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  padding: 4px 14px;
+  border-radius: 999px;
+}
+
+/* ─── Thin divider ─── */
+.jp-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #C8DCEF, transparent);
+}
+
+/* ─── Hero background ─── */
+.hero-jp {
+  background: linear-gradient(160deg, #f0f7ff 0%, #e4f0fb 50%, #f8fafc 100%);
 }
